@@ -1,4 +1,41 @@
-header {
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.cabecalho-header {
     background-color: #0066DD;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0;
+}
+
+.cabecalho-imagem {
+    width: 10%;
+}
+
+.cabecalho-lista{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+
+.informação-imagem{
+    width: 100%;
+}
+
+.jogo{
+    color: blueviolet;
+}
+
+.jogo-div-conteudo{
+
 }
